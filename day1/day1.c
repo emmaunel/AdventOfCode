@@ -41,7 +41,7 @@ int main(){
         totalsum += firstmass;
     }
 
-    printf("Total sum: %d\n", totalsum);
+    printf("part 1: %d\n", totalsum);
     fclose(f);
 
     d = fopen("input.txt", "r");
@@ -58,6 +58,6 @@ int main(){
         }
     }
 
-    printf("Total something: %d\n", secondsum);
+    printf("Part 2: %d\n", secondsum);
 }
 
